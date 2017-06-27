@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="js/libs.js"></script>
+</head>
+<style>
+     body{
+		 background:#33C740;
+	     margin-left:30px;
+	 }
+		 .cuadro1{
+			 -ms-box-sizing: border-box;
+	          -moz-box-sizing: border-box;
+	             -webkit-box-sizing: border-box;
+	                 box-sizing: border-box;
+                      margin: 50;
+                  padding: 50;
+              border: 50;
+			  border-color:#E01417;
+			 }
+
+.cuadro2 {
+	border-color:red;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	          -moz-box-sizing: border-box;
+	             -webkit-box-sizing: border-box;
+	                 box-sizing: border-box;
+                      margin: 50;
+                  padding: 50;
+              border: 50;
+	
+}
+</style>
+
+<body>
+
+	<form name="frm" id="frm" method="post" enctype="application/x-www-form-urlencoded">
+		<label for="username"><a>Nombre de usuario</a></label>
+			<input name="username" type="text" class="cuadro1" id="username">
+		<label for="psw">Password</label>
+			<input name="psw" type="password" class="cuadro2" id="psw">
+		<button id="enviar" name="enviar">Registro</button>
+	</form>
+</body>
+</html>
